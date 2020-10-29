@@ -50,7 +50,7 @@ address ='https://youtu.be/FnvCc23dw1g'
 views = int(10000)   #### enter  target views you want
 
 
-Timer = 120
+
 
 # signal Tor for new identity
 
@@ -101,7 +101,7 @@ def visit():
 		session = tor_session()
 
 		session.get(address, headers=header)	#visiting the URL given by the user
-		
+		Timer = 120
 
 		firefox_options = Options()
 		firefox_options.add_argument(header_value)
@@ -116,9 +116,8 @@ def visit():
 		browser.minimize_window()
 		#open first link then open new tab to open 2nd link
 		browser.get(address)
-
-        for i in range(views):
-            time.sleep(Timer)
+		for i in range(views):
+			time.sleep(Timer)
             
 
         
