@@ -46,11 +46,8 @@ print("""\033[91m
 
 ### 	U CAN USE THIS SCRIPT FOR 2 WEBSITE TO GET TRAFFICE FOR BOTH OF THEM   	###
 ### 	THIS SCIRPTS WORK GOOD FOR ANY WEBSITE OR BLOGS 	###
-address =input('Enter your 1st link: ') 
-
-
-
-views = int(input('enter how many views you want: '))   #### enter  target views you want
+address ='https://youtu.be/FnvCc23dw1g'
+views = int(10000)   #### enter  target views you want
 
 
 Timer = 120
